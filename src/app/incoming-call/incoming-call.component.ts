@@ -10,7 +10,7 @@ import { CometChatService } from '../comet-chat.service';
 export class IncomingCallComponent {
 
   @Input()
-  private call: any;
+    call: any;
 
   constructor(private chat: CometChatService) { }
 
